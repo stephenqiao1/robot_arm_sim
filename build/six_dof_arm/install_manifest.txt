@@ -5,11 +5,12 @@
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/urdf/six_dof_arm.csv
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_1.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_4.STL
-/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_4_1.STL
+/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_5.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/base_link.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_3.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_2.STL
-/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_4_2.STL
+/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_6.STL
+/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_7.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/package_run_dependencies/six_dof_arm
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/parent_prefix_path/six_dof_arm
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.sh

@@ -14,6 +14,6 @@
 
   <export>
     <build_type>ament_cmake</build_type>
-    <gazebo_ros gazebo_m0del_path = "/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/" />
+    <gazebo_ros gazebo_model_path="/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/"/>
   </export>
 </package>
