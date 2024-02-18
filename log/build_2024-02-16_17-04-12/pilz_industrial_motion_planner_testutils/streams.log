@@ -1,0 +1,122 @@
+[0.095s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm:/home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/lib:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/bin:${PATH} PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/stephenq0503/Desktop/robot_arm_sim/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils -DCMAKE_INSTALL_PREFIX=/home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.302s] -- The CXX compiler identification is GNU 11.4.0
+[0.316s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.483s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.642s] -- Detecting CXX compiler ABI info - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.664s] -- Detecting CXX compile features
+[0.665s] -- Detecting CXX compile features - done
+[0.668s] -- Found moveit_common: 2.5.5 (/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common/share/moveit_common/cmake)
+[0.671s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.236s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.827s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.839s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.839s] -- BACKWARD_HAS_UNWIND=1
+[1.839s] -- BACKWARD_HAS_BACKTRACE=0
+[1.840s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.840s] -- BACKWARD_HAS_DW=1
+[1.840s] -- BACKWARD_HAS_BFD=0
+[1.841s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.841s] [0mpilz_industrial_motion_planner_testutils: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.846s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.930s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.944s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.966s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.201s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.207s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.374s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.409s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.506s] -- Looking for pthread.h
+[2.644s] -- Looking for pthread.h - found
+[2.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.826s] -- Found Threads: TRUE  
+[3.241s] -- Found moveit_core: 2.5.5 (/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/share/moveit_core/cmake)
+[3.322s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.420s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.463s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.469s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.590s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.886s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.700s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.352s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[8.391s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.483s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.497s] -- Configured cppcheck include dirs: /home/stephenq0503/Desktop/robot_arm_sim/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils/include
+[8.497s] -- Configured cppcheck exclude dirs and/or files: 
+[8.498s] -- Added test 'xmllint' to check XML markup files
+[8.501s] -- Configuring done
+[8.647s] -- Generating done
+[8.678s] -- Build files have been written to: /home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils
+[8.753s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm:/home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/lib:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/bin:${PATH} PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/stephenq0503/Desktop/robot_arm_sim/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils -DCMAKE_INSTALL_PREFIX=/home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils
+[8.754s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm:/home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/lib:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/bin:${PATH} PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils -- -j8 -l8
+[9.192s] [ 16%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/cartesianconfiguration.cpp.o[0m
+[9.206s] [ 33%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/jointconfiguration.cpp.o[0m
+[9.232s] [ 50%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/robotconfiguration.cpp.o[0m
+[40.096s] [ 66%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o[0m
+[62.188s] [ 83%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/sequence.cpp.o[0m
+[79.318s] [100%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner_testutils.so[0m
+[79.655s] [100%] Built target pilz_industrial_motion_planner_testutils
+[79.682s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm:/home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/lib:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/bin:${PATH} PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils -- -j8 -l8
+[79.752s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm:/home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/lib:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/bin:${PATH} PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils
+[79.767s] -- Install configuration: "Release"
+[79.768s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so
+[79.770s] -- Set runtime path of "/home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so" to ""
+[79.771s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include
+[79.772s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils
+[79.773s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/motioncmd.h
+[79.774s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/async_test.h
+[79.776s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/robotconfiguration.h
+[79.777s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/robotstatemsgconvertible.h
+[79.779s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/gripper.h
+[79.780s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circ_auxiliary_types.h
+[79.782s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/goalconstraintsmsgconvertible.h
+[79.783s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/xml_testdata_loader.h
+[79.792s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/sequence.h
+[79.793s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/center.h
+[79.795s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/default_values.h
+[79.796s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circauxiliary.h
+[79.796s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/interim.h
+[79.796s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/command_types_typedef.h
+[79.796s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circ.h
+[79.797s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/xml_constants.h
+[79.797s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/basecmd.h
+[79.797s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/lin.h
+[79.797s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/cartesianpathconstraintsbuilder.h
+[79.797s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/testdata_loader.h
+[79.797s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/checks.h
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/exception_types.h
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/cartesianconfiguration.h
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/motionplanrequestconvertible.h
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/jointconfiguration.h
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/ptp.h
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.sh
+[79.798s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.dsv
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/package_run_dependencies/pilz_industrial_motion_planner_testutils
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/parent_prefix_path/pilz_industrial_motion_planner_testutils
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.sh
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.dsv
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.sh
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.dsv
+[79.799s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.bash
+[79.800s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.sh
+[79.800s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.zsh
+[79.800s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.dsv
+[79.800s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.dsv
+[79.800s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/packages/pilz_industrial_motion_planner_testutils
+[79.800s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/export_pilz_industrial_motion_planner_testutilsExport.cmake
+[79.801s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/export_pilz_industrial_motion_planner_testutilsExport-release.cmake
+[79.801s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_targets-extras.cmake
+[79.816s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.818s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig.cmake
+[79.818s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig-version.cmake
+[79.819s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.xml
+[79.819s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom:/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_common:/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm:/home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/lib:/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_core/bin:${PATH} PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/pilz_industrial_motion_planner_testutils

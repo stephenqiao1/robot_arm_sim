@@ -1,0 +1,39 @@
+[0.629s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm -- -j8 -l8
+[1.960s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm -- -j8 -l8
+[2.060s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm
+[2.091s] -- Install configuration: ""
+[2.098s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch
+[2.099s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/.vscode
+[2.100s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/.vscode/settings.json
+[2.101s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/.vscode/c_cpp_properties.json
+[2.102s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/gazebo.launch.py
+[2.104s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/urdf
+[2.106s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/urdf/six_dof_arm.urdf
+[2.107s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/urdf/six_dof_arm.csv
+[2.108s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes
+[2.108s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_1.STL
+[2.109s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_4.STL
+[2.110s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_5.STL
+[2.111s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/base_link.STL
+[2.112s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_3.STL
+[2.115s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_2.STL
+[2.118s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_6.STL
+[2.125s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_7.STL
+[2.126s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/config
+[2.126s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/config/six_dof_arm_controllers.yaml
+[2.127s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/package_run_dependencies/six_dof_arm
+[2.127s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/parent_prefix_path/six_dof_arm
+[2.127s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.sh
+[2.127s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.dsv
+[2.127s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/environment/path.sh
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/environment/path.dsv
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/local_setup.bash
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/local_setup.sh
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/local_setup.zsh
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/local_setup.dsv
+[2.128s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/package.dsv
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/packages/six_dof_arm
+[2.128s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/cmake/six_dof_armConfig.cmake
+[2.129s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/cmake/six_dof_armConfig-version.cmake
+[2.129s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/package.xml
+[2.129s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/six_dof_arm

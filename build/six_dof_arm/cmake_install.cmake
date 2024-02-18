@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/stephenq0503/Desktop/robot_arm_sim/src/six_dof_arm/launch"
     "/home/stephenq0503/Desktop/robot_arm_sim/src/six_dof_arm/urdf"
     "/home/stephenq0503/Desktop/robot_arm_sim/src/six_dof_arm/meshes"
+    "/home/stephenq0503/Desktop/robot_arm_sim/src/six_dof_arm/config"
     )
 endif()
 

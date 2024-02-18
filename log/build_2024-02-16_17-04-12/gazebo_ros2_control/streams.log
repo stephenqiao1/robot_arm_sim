@@ -1,0 +1,20 @@
+[0.515s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control -- -j8 -l8
+[1.172s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control -- -j8 -l8
+[2.177s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control
+[2.451s] -- Install configuration: ""
+[2.458s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[2.459s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[2.460s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[2.462s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[2.468s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[2.469s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[2.471s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[2.472s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[2.474s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[2.475s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[2.476s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[2.478s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[2.479s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[2.480s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[2.481s] -- Up-to-date: /home/stephenq0503/Desktop/robot_arm_sim/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[2.741s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/gazebo_ros2_control

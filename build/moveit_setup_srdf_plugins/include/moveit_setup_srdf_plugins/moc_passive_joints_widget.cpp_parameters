@@ -1,0 +1,5 @@
+-DBACKWARD_HAS_DW=1
+-DROS_PACKAGE_NAME="moveit_setup_srdf_plugins"
+-o
+/home/stephenq0503/Desktop/robot_arm_sim/build/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp
+/home/stephenq0503/Desktop/robot_arm_sim/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints_widget.hpp

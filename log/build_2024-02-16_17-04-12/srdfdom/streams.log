@@ -1,0 +1,104 @@
+[0.630s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/stephenq0503/Desktop/robot_arm_sim/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom
+[1.105s] -- The CXX compiler identification is GNU 11.4.0
+[1.105s] -- Detecting CXX compiler ABI info
+[1.105s] -- Detecting CXX compiler ABI info - done
+[1.105s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.105s] -- Detecting CXX compile features
+[1.105s] -- Detecting CXX compile features - done
+[1.105s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.106s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.229s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.483s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.595s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.811s] -- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.817s] -- Found ament_cmake_pytest: 1.3.7 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.773s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.876s] -- The C compiler identification is GNU 11.4.0
+[2.889s] -- Detecting C compiler ABI info
+[3.041s] -- Detecting C compiler ABI info - done
+[3.062s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.062s] -- Detecting C compile features
+[3.062s] -- Detecting C compile features - done
+[3.066s] -- Looking for C++ include pthread.h
+[3.192s] -- Looking for C++ include pthread.h - found
+[3.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.302s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.304s] -- Found Threads: TRUE  
+[3.311s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.335s] -- Configuring done
+[3.357s] -- Generating done
+[3.360s] -- Build files have been written to: /home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom
+[3.663s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/stephenq0503/Desktop/robot_arm_sim/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom
+[3.664s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom -- -j8 -l8
+[3.910s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.910s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[3.911s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[3.911s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.911s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[4.263s] running egg_info
+[4.264s] creating srdfdom.egg-info
+[4.265s] writing srdfdom.egg-info/PKG-INFO
+[4.266s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[4.266s] writing top-level names to srdfdom.egg-info/top_level.txt
+[4.267s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[4.269s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[4.272s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[4.353s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[5.397s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.539s] [ 45%] Built target gtest_main
+[8.680s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[9.025s] [ 54%] Built target srdfdom
+[11.082s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.291s] [ 63%] Built target gtest
+[11.342s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[11.357s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[15.740s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[16.405s] [ 90%] Built target test_cpp_nl_NL.UTF-8
+[16.758s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[17.496s] [100%] Built target test_cpp_C
+[17.582s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom -- -j8 -l8
+[18.124s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom
+[18.158s] -- Install configuration: ""
+[18.159s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[18.173s] -- Set runtime path of "/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+[18.174s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib/libsrdfdom.so
+[18.175s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/include/srdfdom
+[18.176s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/include/srdfdom/visibility_control.h
+[18.178s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/include/srdfdom/model.h
+[18.180s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/include/srdfdom/srdf_writer.h
+[18.182s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/lib/srdfdom/display_srdf
+[18.195s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[18.197s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[18.198s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[18.199s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[18.201s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[18.202s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[18.203s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[18.204s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[18.206s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[18.215s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[18.373s] Listing '/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[18.374s] Compiling '/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[18.375s] Compiling '/home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[18.391s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/library_path.sh
+[18.395s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[18.397s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[18.400s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[18.401s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[18.401s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[18.402s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/path.sh
+[18.403s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/environment/path.dsv
+[18.407s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/local_setup.bash
+[18.408s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/local_setup.sh
+[18.409s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/local_setup.zsh
+[18.411s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/local_setup.dsv
+[18.413s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/package.dsv
+[18.414s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[18.416s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[18.417s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[18.419s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[18.420s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.422s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[18.423s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[18.424s] -- Installing: /home/stephenq0503/Desktop/robot_arm_sim/install/srdfdom/share/srdfdom/package.xml
+[18.439s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stephenq0503/Desktop/robot_arm_sim/build/srdfdom

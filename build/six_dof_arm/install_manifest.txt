@@ -1,5 +1,6 @@
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/.vscode/settings.json
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/.vscode/c_cpp_properties.json
+/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/moveit_demo.launch.py
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/launch/gazebo.launch.py
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/urdf/six_dof_arm.urdf
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/urdf/six_dof_arm.csv
@@ -11,6 +12,7 @@
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_2.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_6.STL
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/meshes/link_7.STL
+/home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/config/six_dof_arm_controllers.yaml
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/package_run_dependencies/six_dof_arm
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/ament_index/resource_index/parent_prefix_path/six_dof_arm
 /home/stephenq0503/Desktop/robot_arm_sim/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.sh

@@ -1,0 +1,15 @@
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/ament_index/resource_index/package_run_dependencies/moveit_planners
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/ament_index/resource_index/parent_prefix_path/moveit_planners
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.sh
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.dsv
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/environment/path.sh
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/environment/path.dsv
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/local_setup.bash
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/local_setup.sh
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/local_setup.zsh
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/local_setup.dsv
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/package.dsv
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/ament_index/resource_index/packages/moveit_planners
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig.cmake
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig-version.cmake
+/home/stephenq0503/Desktop/robot_arm_sim/install/moveit_planners/share/moveit_planners/package.xml
