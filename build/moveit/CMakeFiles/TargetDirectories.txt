@@ -1,9 +1,0 @@
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/uninstall.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/moveit_uninstall.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/test.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/edit_cache.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/rebuild_cache.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/list_install_components.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/install.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/install/local.dir
-/home/stephenq0503/Desktop/robot_arm_sim/build/moveit/CMakeFiles/install/strip.dir
