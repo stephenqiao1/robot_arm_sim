@@ -31,7 +31,7 @@
           <mesh filename="file://$(find my_robot_pkg)/description/meshes/visual/link0.dae"/>
         </geometry>
         <material name="">
-          <color rgba="1 1 1 1"/>
+          <color rgba="0 0 0 1"/>
         </material>
       </visual>
       <collision>

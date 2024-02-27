@@ -14,32 +14,37 @@ class TrajectoryActionClient(Node):
         points = []
         
         point1_msg = JointTrajectoryPoint()
-        point1_msg.positions = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        point1_msg.positions = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         point1_msg.time_from_start = Duration(seconds=2.0).to_msg()
         
         point2_msg = JointTrajectoryPoint()
-        point2_msg.positions = [0.0, 0.0, 0.52, 0.0, 0.0, 0.0]
+        point2_msg.positions = [0.0, 0.0, 0.52, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         point2_msg.time_from_start = Duration(seconds=4, nanoseconds=0).to_msg()
         
         point3_msg = JointTrajectoryPoint()
-        point3_msg.positions = [0.0, 0.0, -0.17, 0.0, 0.0, 0.0]
+        point3_msg.positions = [0.0, 0.0, -0.17, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         point3_msg.time_from_start = Duration(seconds=6, nanoseconds=0).to_msg()
         
         point4_msg = JointTrajectoryPoint()
-        point4_msg.positions = [0.0, 0.0, -0.52, 0.0, 0.0, 0.0]
+        point4_msg.positions = [0.0, 0.0, -0.52, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         point4_msg.time_from_start = Duration(seconds=8, nanoseconds=0).to_msg()
         
         point5_msg = JointTrajectoryPoint()
-        point5_msg.positions = [0.0, 0.0, 0.17, 0.0, 0.0, 0.0]
+        point5_msg.positions = [0.0, 0.0, 0.17, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         point5_msg.time_from_start = Duration(seconds=10, nanoseconds=0).to_msg()
+        
+        point6_msg = JointTrajectoryPoint()
+        point6_msg.positions = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.5]
+        point6_msg.time_from_start = Duration(seconds=12, nanoseconds=0).to_msg()
         
         points.append(point1_msg)
         points.append(point2_msg)
         points.append(point3_msg)
         points.append(point4_msg)
         points.append(point5_msg)
+        points.append(point6_msg)
         
-        joint_names = ['panda_joint1', 'panda_joint2', 'panda_joint3', 'panda_joint4', 'panda_joint5', 'panda_joint6', 'panda_joint7']
+        joint_names = ['panda_joint1', 'panda_joint2', 'panda_joint3', 'panda_joint4', 'panda_joint5', 'panda_joint6', 'panda_joint7', 'panda_finger_joint1', 'panda_finger_joint2']
         goal_msg = FollowJointTrajectory.Goal()
         goal_msg.goal_time_tolerance = Duration(seconds=1, nanoseconds=0).to_msg()
         goal_msg.trajectory.joint_names = joint_names
