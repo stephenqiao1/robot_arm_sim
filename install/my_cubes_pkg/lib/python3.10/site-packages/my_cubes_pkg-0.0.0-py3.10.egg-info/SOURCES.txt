@@ -8,8 +8,14 @@ setup.py
 ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/requires.txt
 ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/top_level.txt
 ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/zip-safe
+launch/my_cubes.launch.py
+models/sdf/model.config
+models/sdf/model.sdf
+models/urdf/cubes.urdf
 my_cubes_pkg/__init__.py
+my_cubes_pkg/client_node.py
 resource/my_cubes_pkg
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+worlds/my_empty_world.world
