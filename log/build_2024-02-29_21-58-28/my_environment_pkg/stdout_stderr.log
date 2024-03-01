@@ -1,0 +1,9 @@
+running egg_info
+creating ../../build/my_environment_pkg/my_environment_pkg.egg-info
+writing ../../build/my_environment_pkg/my_environment_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_environment_pkg/my_environment_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_environment_pkg/my_environment_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_environment_pkg/my_environment_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_environment_pkg/my_environment_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+error: package directory 'my_environment_pkg' does not exist

@@ -1,0 +1,403 @@
+[1.360s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'my_cubes_kg']
+[1.360s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['my_cubes_kg'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f2213ff69b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2213ff43d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2213ff43d0>>, mixin_verb=('build',))
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.418s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/stephenq0503/Desktop/robot_arm_sim'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['ignore', 'ignore_ament_install']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'ignore'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'ignore_ament_install'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['colcon_pkg']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'colcon_pkg'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['colcon_meta']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'colcon_meta'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['ros']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'ros'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['cmake', 'python']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'cmake'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'python'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['python_setup_py']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'python_setup_py'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['ignore', 'ignore_ament_install']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'ignore'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'ignore_ament_install'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['colcon_pkg']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'colcon_pkg'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['colcon_meta']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'colcon_meta'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['ros']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'ros'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['cmake', 'python']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'cmake'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'python'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['python_setup_py']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'python_setup_py'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['ignore', 'ignore_ament_install']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'ignore'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'ignore_ament_install'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['colcon_pkg']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'colcon_pkg'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['colcon_meta']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'colcon_meta'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['ros']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'ros'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['cmake', 'python']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'cmake'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'python'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['python_setup_py']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'python_setup_py'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['ignore', 'ignore_ament_install']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'ignore'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'ignore_ament_install'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['colcon_pkg']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'colcon_pkg'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['colcon_meta']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'colcon_meta'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['ros']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'ros'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['cmake', 'python']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'cmake'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'python'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['python_setup_py']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'python_setup_py'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['ignore', 'ignore_ament_install']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'ignore'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'ignore_ament_install'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['colcon_pkg']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'colcon_pkg'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['colcon_meta']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'colcon_meta'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['ros']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'ros'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['cmake', 'python']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'cmake'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'python'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['python_setup_py']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'python_setup_py'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['ignore', 'ignore_ament_install']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'ignore'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'ignore_ament_install'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['colcon_pkg']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'colcon_pkg'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['colcon_meta']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'colcon_meta'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['ros']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'ros'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['cmake', 'python']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'cmake'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'python'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['python_setup_py']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'python_setup_py'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['ignore', 'ignore_ament_install']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'ignore'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'ignore_ament_install'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['colcon_pkg']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'colcon_pkg'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['colcon_meta']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'colcon_meta'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['ros']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'ros'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['cmake', 'python']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'cmake'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'python'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['python_setup_py']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'python_setup_py'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['ignore', 'ignore_ament_install']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'ignore'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'ignore_ament_install'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['colcon_pkg']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'colcon_pkg'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['colcon_meta']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'colcon_meta'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['ros']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'ros'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['cmake', 'python']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'cmake'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'python'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['python_setup_py']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'python_setup_py'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['ignore', 'ignore_ament_install']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'ignore'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'ignore_ament_install'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['colcon_pkg']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'colcon_pkg'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['colcon_meta']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'colcon_meta'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['ros']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'ros'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['cmake', 'python']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'cmake'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'python'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['python_setup_py']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'python_setup_py'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['ignore', 'ignore_ament_install']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'ignore'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'ignore_ament_install'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['colcon_pkg']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'colcon_pkg'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['colcon_meta']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'colcon_meta'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['ros']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'ros'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['cmake', 'python']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'cmake'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'python'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['python_setup_py']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'python_setup_py'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['ignore', 'ignore_ament_install']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'ignore'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'ignore_ament_install'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['colcon_pkg']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'colcon_pkg'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['colcon_meta']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'colcon_meta'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['ros']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'ros'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['cmake', 'python']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'cmake'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'python'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['python_setup_py']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'python_setup_py'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['ignore', 'ignore_ament_install']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'ignore'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'ignore_ament_install'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['colcon_pkg']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'colcon_pkg'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['colcon_meta']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'colcon_meta'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['ros']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'ros'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['cmake', 'python']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'cmake'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'python'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['python_setup_py']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'python_setup_py'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['ignore', 'ignore_ament_install']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'ignore'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'ignore_ament_install'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['colcon_pkg']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'colcon_pkg'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['colcon_meta']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'colcon_meta'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['ros']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'ros'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['cmake', 'python']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'cmake'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'python'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['python_setup_py']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'python_setup_py'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['ignore', 'ignore_ament_install']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'ignore'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'ignore_ament_install'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['colcon_pkg']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'colcon_pkg'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['colcon_meta']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'colcon_meta'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['ros']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'ros'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['cmake', 'python']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'cmake'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'python'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['python_setup_py']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'python_setup_py'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['ignore', 'ignore_ament_install']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'ignore'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'ignore_ament_install'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['colcon_pkg']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'colcon_pkg'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['colcon_meta']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'colcon_meta'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['ros']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'ros'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['cmake', 'python']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'cmake'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'python'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['python_setup_py']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'python_setup_py'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['ignore', 'ignore_ament_install']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'ignore_ament_install'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['colcon_pkg']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'colcon_pkg'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['colcon_meta']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'colcon_meta'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['ros']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'ros'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['cmake', 'python']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'cmake'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'python'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['python_setup_py']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'python_setup_py'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['ignore', 'ignore_ament_install']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'ignore_ament_install'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['colcon_pkg']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'colcon_pkg'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['colcon_meta']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'colcon_meta'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['ros']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'ros'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['cmake', 'python']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'cmake'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'python'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['python_setup_py']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'python_setup_py'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['ignore', 'ignore_ament_install']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'ignore'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'ignore_ament_install'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['colcon_pkg']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'colcon_pkg'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['colcon_meta']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'colcon_meta'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['ros']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'ros'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['cmake', 'python']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'cmake'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'python'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['python_setup_py']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'python_setup_py'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['colcon_pkg']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'colcon_pkg'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['colcon_meta']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'colcon_meta'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['ros']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'ros'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['cmake', 'python']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'cmake'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'python'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['python_setup_py']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'python_setup_py'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['ignore', 'ignore_ament_install']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'ignore'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'ignore_ament_install'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['colcon_pkg']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'colcon_pkg'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['colcon_meta']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'colcon_meta'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['ros']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'ros'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['cmake', 'python']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'cmake'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'python'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['python_setup_py']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'python_setup_py'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['ignore', 'ignore_ament_install']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'ignore'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'ignore_ament_install'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['colcon_pkg']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'colcon_pkg'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['colcon_meta']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'colcon_meta'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['ros']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'ros'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['cmake', 'python']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'cmake'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'python'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['python_setup_py']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'python_setup_py'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'ignore'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'ignore_ament_install'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['colcon_pkg']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'colcon_pkg'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['colcon_meta']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'colcon_meta'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['ros']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'ros'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['cmake', 'python']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'cmake'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'python'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['python_setup_py']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'python_setup_py'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'ignore'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'ignore_ament_install'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['colcon_pkg']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'colcon_pkg'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['colcon_meta']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'colcon_meta'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['ros']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'ros'
+[1.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cubes_pkg' with type 'ros.ament_python' and name 'my_cubes_pkg'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'ignore'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'ignore_ament_install'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['colcon_pkg']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'colcon_pkg'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['colcon_meta']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'colcon_meta'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['ros']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'ros'
+[1.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_environment_pkg' with type 'ros.ament_python' and name 'my_environment_pkg'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore_ament_install'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_pkg']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_pkg'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_meta']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_meta'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ros']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ros'
+[1.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_pkg' with type 'ros.ament_python' and name 'my_robot_pkg'
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
