@@ -1,0 +1,549 @@
+[1.390s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.390s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f93453bc250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f93453bc820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f93453bc820>>, mixin_verb=('build',))
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.450s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/stephenq0503/Desktop/robot_arm_sim'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['colcon_pkg']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'colcon_pkg'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['colcon_meta']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'colcon_meta'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['ros']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'ros'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['cmake', 'python']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'cmake'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'python'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extensions ['python_setup_py']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages) by extension 'python_setup_py'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['ignore', 'ignore_ament_install']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'ignore'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'ignore_ament_install'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['colcon_pkg']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'colcon_pkg'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['colcon_meta']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'colcon_meta'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['ros']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'ros'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['cmake', 'python']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'cmake'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'python'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extensions ['python_setup_py']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Cat) by extension 'python_setup_py'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['ignore', 'ignore_ament_install']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'ignore_ament_install'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['colcon_pkg']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'colcon_pkg'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['colcon_meta']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'colcon_meta'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'ros'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['cmake', 'python']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'cmake'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'python'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extensions ['python_setup_py']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/PetImages/Dog) by extension 'python_setup_py'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'ignore'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'ignore_ament_install'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['colcon_pkg']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'colcon_pkg'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['colcon_meta']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'colcon_meta'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['ros']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'ros'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['cmake', 'python']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'cmake'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'python'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extensions ['python_setup_py']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images) by extension 'python_setup_py'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['ignore', 'ignore_ament_install']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'ignore_ament_install'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['colcon_pkg']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'colcon_pkg'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['colcon_meta']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'colcon_meta'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['ros']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'ros'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['cmake', 'python']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'cmake'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'python'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extensions ['python_setup_py']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test) by extension 'python_setup_py'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['ignore', 'ignore_ament_install']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'colcon_meta'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['ros']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'ros'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['cmake', 'python']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'cmake'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'python'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extensions ['python_setup_py']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/GENERAL GRIEVOUS) by extension 'python_setup_py'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['ignore', 'ignore_ament_install']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'ignore'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'ignore_ament_install'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['colcon_pkg']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'colcon_pkg'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['colcon_meta']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'colcon_meta'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['ros']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'ros'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['cmake', 'python']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'cmake'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'python'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extensions ['python_setup_py']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/LUKE SKYWALKER) by extension 'python_setup_py'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['ignore', 'ignore_ament_install']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'ignore'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'ignore_ament_install'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['colcon_pkg']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'colcon_pkg'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'colcon_meta'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['ros']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'ros'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['cmake', 'python']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'cmake'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'python'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extensions ['python_setup_py']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/MACE WINDU) by extension 'python_setup_py'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['ignore', 'ignore_ament_install']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'ignore'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['colcon_pkg']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'colcon_pkg'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'colcon_meta'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['ros']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'ros'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['cmake', 'python']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'cmake'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'python'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extensions ['python_setup_py']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/R2-R2) by extension 'python_setup_py'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'ignore'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'ignore_ament_install'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['colcon_pkg']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'colcon_pkg'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['colcon_meta']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'colcon_meta'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['ros']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'ros'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['cmake', 'python']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'cmake'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'python'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extensions ['python_setup_py']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/test/YODA) by extension 'python_setup_py'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['colcon_pkg']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'colcon_meta'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['ros']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'ros'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['cmake', 'python']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'cmake'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'python'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extensions ['python_setup_py']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train) by extension 'python_setup_py'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['ignore', 'ignore_ament_install']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['ros']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'ros'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['cmake', 'python']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'cmake'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'python'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extensions ['python_setup_py']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/GENERAL GRIEVOUS) by extension 'python_setup_py'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['ignore', 'ignore_ament_install']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['colcon_meta']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'colcon_meta'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['ros']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'ros'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['cmake', 'python']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'cmake'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'python'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extensions ['python_setup_py']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/LUKE SKYWALKER) by extension 'python_setup_py'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['ignore', 'ignore_ament_install']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'ignore'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'ignore_ament_install'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['colcon_pkg']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'colcon_pkg'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['colcon_meta']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'colcon_meta'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['ros']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'ros'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['cmake', 'python']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'cmake'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'python'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extensions ['python_setup_py']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/MACE WINDU) by extension 'python_setup_py'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['ignore', 'ignore_ament_install']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'ignore'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'ignore_ament_install'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['colcon_pkg']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'colcon_pkg'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['colcon_meta']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'colcon_meta'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['ros']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'ros'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['cmake', 'python']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'cmake'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'python'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extensions ['python_setup_py']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/R2-R2) by extension 'python_setup_py'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['ignore', 'ignore_ament_install']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'ignore'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'ignore_ament_install'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['colcon_pkg']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'colcon_pkg'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['colcon_meta']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'colcon_meta'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['ros']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'ros'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['cmake', 'python']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'cmake'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'python'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extensions ['python_setup_py']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/train/YODA) by extension 'python_setup_py'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['ignore', 'ignore_ament_install']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'ignore'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'ignore_ament_install'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['colcon_pkg']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'colcon_pkg'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['colcon_meta']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'colcon_meta'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['ros']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'ros'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['cmake', 'python']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'cmake'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'python'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extensions ['python_setup_py']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val) by extension 'python_setup_py'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['ignore', 'ignore_ament_install']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'ignore'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'ignore_ament_install'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['colcon_pkg']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'colcon_pkg'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['colcon_meta']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'colcon_meta'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['ros']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'ros'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['cmake', 'python']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'cmake'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'python'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extensions ['python_setup_py']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/GENERAL GRIEVOUS) by extension 'python_setup_py'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['ignore', 'ignore_ament_install']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'ignore'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'ignore_ament_install'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['colcon_pkg']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'colcon_pkg'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['colcon_meta']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'colcon_meta'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['ros']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'ros'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['cmake', 'python']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'cmake'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'python'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extensions ['python_setup_py']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/LUKE SKYWALKER) by extension 'python_setup_py'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['ignore', 'ignore_ament_install']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'ignore'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'ignore_ament_install'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['colcon_pkg']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'colcon_pkg'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['colcon_meta']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'colcon_meta'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['ros']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'ros'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['cmake', 'python']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'cmake'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'python'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extensions ['python_setup_py']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/MACE WINDU) by extension 'python_setup_py'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['ignore', 'ignore_ament_install']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'ignore'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'ignore_ament_install'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['colcon_pkg']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'colcon_pkg'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['colcon_meta']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'colcon_meta'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['ros']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'ros'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['cmake', 'python']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'cmake'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'python'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extensions ['python_setup_py']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/R2-R2) by extension 'python_setup_py'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'ignore'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'ignore_ament_install'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['colcon_pkg']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'colcon_pkg'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['colcon_meta']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'colcon_meta'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['ros']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'ros'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['cmake', 'python']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'cmake'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'python'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extensions ['python_setup_py']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(models/star-wars-images/val/YODA) by extension 'python_setup_py'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'ignore'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'ignore_ament_install'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['colcon_pkg']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'colcon_pkg'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['colcon_meta']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'colcon_meta'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extensions ['ros']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cubes_pkg) by extension 'ros'
+[1.504s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cubes_pkg' with type 'ros.ament_python' and name 'my_cubes_pkg'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'ignore_ament_install'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['colcon_pkg']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'colcon_pkg'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['colcon_meta']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'colcon_meta'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extensions ['ros']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_environment_pkg) by extension 'ros'
+[1.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_environment_pkg' with type 'ros.ament_python' and name 'my_environment_pkg'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore_ament_install'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_pkg']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_pkg'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_meta']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_meta'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ros']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ros'
+[1.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_pkg' with type 'ros.ament_python' and name 'my_robot_pkg'
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.640s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/stephenq0503/Desktop/robot_arm_sim/install
+[1.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.768s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'cmake_args' from command line to 'None'
+[1.768s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'cmake_target' from command line to 'None'
+[1.768s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.768s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.769s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.769s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.769s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.769s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.769s] Level 5:colcon.colcon_core.verb:set package 'my_cubes_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.769s] DEBUG:colcon.colcon_core.verb:Building package 'my_cubes_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg', 'merge_install': False, 'path': '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'cmake_args' from command line to 'None'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'cmake_target' from command line to 'None'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_environment_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.785s] DEBUG:colcon.colcon_core.verb:Building package 'my_environment_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg', 'merge_install': False, 'path': '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_target' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.802s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg', 'merge_install': False, 'path': '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.818s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.835s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg' with build type 'ament_python'
+[1.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cubes_pkg', 'ament_prefix_path')
+[1.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/hook/ament_prefix_path.ps1'
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/hook/ament_prefix_path.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/hook/ament_prefix_path.sh'
+[1.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.924s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg' with build type 'ament_python'
+[1.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_environment_pkg', 'ament_prefix_path')
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/hook/ament_prefix_path.ps1'
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/hook/ament_prefix_path.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/hook/ament_prefix_path.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.053s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg' with build type 'ament_python'
+[2.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_pkg', 'ament_prefix_path')
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/hook/ament_prefix_path.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/hook/ament_prefix_path.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/hook/ament_prefix_path.sh'
+[2.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg'
+[2.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.754s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg'
+[2.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.097s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg'
+[3.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_cubes_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/install.log --single-version-externally-managed
+[3.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_environment_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/install.log --single-version-externally-managed
+[3.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/install.log --single-version-externally-managed
+[3.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_cubes_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/install.log --single-version-externally-managed
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg' for CMake module files
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg' for CMake config files
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/bin'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/pkgconfig/my_cubes_pkg.pc'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages'
+[3.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cubes_pkg', 'pythonpath')
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/hook/pythonpath.ps1'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/hook/pythonpath.dsv'
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/hook/pythonpath.sh'
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/bin'
+[4.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cubes_pkg)
+[4.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/package.ps1'
+[4.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/package.dsv'
+[4.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/package.sh'
+[4.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/package.bash'
+[4.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/package.zsh'
+[4.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/colcon-core/packages/my_cubes_pkg)
+[4.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/install.log --single-version-externally-managed
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg' for CMake module files
+[4.071s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg' for CMake config files
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib'
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/bin'
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/pkgconfig/my_robot_pkg.pc'
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages'
+[4.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_pkg', 'pythonpath')
+[4.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/hook/pythonpath.ps1'
+[4.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/hook/pythonpath.dsv'
+[4.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/hook/pythonpath.sh'
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/bin'
+[4.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_pkg)
+[4.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/package.ps1'
+[4.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/package.dsv'
+[4.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/package.sh'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/package.bash'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/my_robot_pkg/package.zsh'
+[4.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/share/colcon-core/packages/my_robot_pkg)
+[4.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_environment_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/install.log --single-version-externally-managed
+[4.137s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg' for CMake module files
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg' for CMake config files
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/bin'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/pkgconfig/my_environment_pkg.pc'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages'
+[4.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_environment_pkg', 'pythonpath')
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/hook/pythonpath.ps1'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/hook/pythonpath.dsv'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/hook/pythonpath.sh'
+[4.162s] Level 1:colcon.colcon_core.environment:checking '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/bin'
+[4.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_environment_pkg)
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/package.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/package.dsv'
+[4.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/package.sh'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/package.bash'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/package.zsh'
+[4.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/colcon-core/packages/my_environment_pkg)
+[4.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.181s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.203s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.216s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.236s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stephenq0503/Desktop/robot_arm_sim/install/local_setup.ps1'
+[4.236s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stephenq0503/Desktop/robot_arm_sim/install/_local_setup_util_ps1.py'
+[4.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stephenq0503/Desktop/robot_arm_sim/install/setup.ps1'
+[4.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stephenq0503/Desktop/robot_arm_sim/install/local_setup.sh'
+[4.258s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stephenq0503/Desktop/robot_arm_sim/install/_local_setup_util_sh.py'
+[4.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stephenq0503/Desktop/robot_arm_sim/install/setup.sh'
+[4.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stephenq0503/Desktop/robot_arm_sim/install/local_setup.bash'
+[4.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stephenq0503/Desktop/robot_arm_sim/install/setup.bash'
+[4.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stephenq0503/Desktop/robot_arm_sim/install/local_setup.zsh'
+[4.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stephenq0503/Desktop/robot_arm_sim/install/setup.zsh'

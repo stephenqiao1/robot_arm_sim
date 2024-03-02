@@ -13,14 +13,7 @@ def generate_launch_description():
         + "/xacro/"
         + "panda.urdf.xacro"
     )
-
-    # # Declare a launch argument for the robot description
-    # declare_robot_description_arg = DeclareLaunchArgument(
-    #     "robot_description",
-    #     default_value=Command(["xacro ", xacro_file]),
-    #     description="Full path to the robot description file",
-    # )
-
+    
     # Robot State Publisher
     robot_state_publisher = Node(
         package="robot_state_publisher",
@@ -38,15 +31,15 @@ def generate_launch_description():
         output="screen",
     )
 
-    # Gazebo
-    world_file_name = "my_empty_world.world"
-    world = os.path.join(
-        get_package_share_directory("my_robot_pkg"), "worlds", world_file_name
-    )
-    gazebo_node = ExecuteProcess(
-        cmd=["gazebo", "--verbose", world, "-s", "libgazebo_ros_factory.so"],
-        output="screen",
-    )
+    # # Gazebo
+    # world_file_name = "my_empty_world.world"
+    # world = os.path.join(
+    #     get_package_share_directory("my_robot_pkg"), "worlds", world_file_name
+    # )
+    # gazebo_node = ExecuteProcess(
+    #     cmd=["gazebo", "--verbose", world, "-s", "libgazebo_ros_factory.so"],
+    #     output="screen",
+    # )
 
     # load and START the controllers in launch file
     load_joint_state_broadcaster = ExecuteProcess(
@@ -77,7 +70,7 @@ def generate_launch_description():
         [
             robot_state_publisher,
             spawn_entity_robot,
-            gazebo_node,
+            # gazebo_node,
             load_joint_state_broadcaster,
             load_joint_trajectory_controller,
         ]

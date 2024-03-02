@@ -1,0 +1,26 @@
+[1.774s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_cubes_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/install.log --single-version-externally-managed
+[2.030s] running egg_info
+[2.031s] writing ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/PKG-INFO
+[2.032s] writing dependency_links to ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/dependency_links.txt
+[2.032s] writing entry points to ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/entry_points.txt
+[2.032s] writing requirements to ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/requires.txt
+[2.032s] writing top-level names to ../../build/my_cubes_pkg/my_cubes_pkg.egg-info/top_level.txt
+[2.036s] reading manifest file '../../build/my_cubes_pkg/my_cubes_pkg.egg-info/SOURCES.txt'
+[2.038s] writing manifest file '../../build/my_cubes_pkg/my_cubes_pkg.egg-info/SOURCES.txt'
+[2.038s] running build
+[2.038s] running build_py
+[2.039s] running install
+[2.039s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.039s]   warnings.warn(
+[2.039s] running install_lib
+[2.040s] running install_data
+[2.041s] copying launch/my_cubes.launch.py -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/launch
+[2.041s] copying models/sdf/model.sdf -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/models/sdf
+[2.041s] copying models/urdf/cubes.urdf -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/share/my_cubes_pkg/models/urdf
+[2.041s] running install_egg_info
+[2.044s] removing '/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages/my_cubes_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.044s] Copying ../../build/my_cubes_pkg/my_cubes_pkg.egg-info to /home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages/my_cubes_pkg-0.0.0-py3.10.egg-info
+[2.045s] running install_scripts
+[2.069s] Installing my_client_node script to /home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/my_cubes_pkg
+[2.069s] writing list of installed files to '/home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/install.log'
+[2.111s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_cubes_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_cubes_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_cubes_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_cubes_pkg/install.log --single-version-externally-managed
