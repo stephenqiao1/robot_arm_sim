@@ -80,6 +80,40 @@
                 <kinematic>0</kinematic>
             </link>
         </model>
+        <!-- Overhead Camera Model -->
+        <model name='overhead_camera'>
+            <static>true</static>
+            <pose>0 0 10 0 -1.57 0</pose> <!-- X Y Z Roll Pitch Yaw -->
+            <link name='camera_link'>
+                <visual name='camera_visual'>
+                    <geometry>
+                        <box>
+                            <size>0.1 0.1 0.1</size> <!-- Small box representing the camera -->
+                        </box>
+                    </geometry>
+                </visual>
+                <sensor type='camera' name='overhead_camera_sensor'>
+                    <camera>
+                        <horizontal_fov>1.047</horizontal_fov> <!-- Field of view -->
+                        <image>
+                            <width>640</width>
+                            <height>480</height>
+                            <format>R8G8B8</format>
+                        </image>
+                        <clip>
+                            <near>0.1</near>
+                            <far>100</far>
+                        </clip>
+                    </camera>
+                    <plugin name='camera_plugin' filename='libgazebo_ros_camera.so'>
+                        <cameraName>overhead_camera</cameraName>
+                        <imageTopicName>/overhead_camera/image_raw</imageTopicName>
+                        <cameraInfoTopicName>/overhead_camera/camera_info</cameraInfoTopicName>
+                        <frameName>camera_link</frameName>
+                    </plugin>
+                </sensor>
+            </link>
+        </model>
         <gravity>0 0 -9.8</gravity>
         <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
         <atmosphere type='adiabatic'/>

@@ -29,6 +29,7 @@ def generate_launch_description():
         executable="spawn_entity.py",
         arguments=["-entity", "my_robot_pkg", "-topic", "robot_description"],
         output="screen",
+        parameters=[{'use_sim_time': True}],
     )
 
     # # Gazebo
@@ -42,17 +43,17 @@ def generate_launch_description():
     # )
 
     # load and START the controllers in launch file
-    load_joint_state_broadcaster = ExecuteProcess(
-        cmd=[
-            "ros2",
-            "control",
-            "load_controller",
-            "--set-state",
-            "active",
-            "joint_state_broadcaster",
-        ],
-        output="screen",
-    )
+    # load_joint_state_broadcaster = ExecuteProcess(
+    #     cmd=[
+    #         "ros2",
+    #         "control",
+    #         "load_controller",
+    #         "--set-state",
+    #         "active",
+    #         "joint_state_broadcaster",
+    #     ],
+    #     output="screen",
+    # )
 
     load_joint_trajectory_controller = ExecuteProcess(
         cmd=[
@@ -71,7 +72,7 @@ def generate_launch_description():
             robot_state_publisher,
             spawn_entity_robot,
             # gazebo_node,
-            load_joint_state_broadcaster,
+            # load_joint_state_broadcaster,
             load_joint_trajectory_controller,
         ]
     )

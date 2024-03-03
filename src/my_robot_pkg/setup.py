@@ -32,6 +32,7 @@ setup(
         'console_scripts': [
             'trajectory_points_topic = my_robot_pkg.joint_points_topic:main',
             'trajectory_points_act_server = my_robot_pkg.joint_points_act_service:main',
+            'joint_state_action = my_robot_pkg.joint_state_action:main',
         ],
     },
 )

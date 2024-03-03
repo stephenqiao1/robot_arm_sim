@@ -1,6 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 1000 # Hz
+    update_rate: 100 # Hz
 
 
     joint_state_broadcaster:
@@ -16,23 +16,23 @@ joint_trajectory_controller:
     joints:
       - panda_joint1
       - panda_joint2
-      - panda_joint3
       - panda_joint4
       - panda_joint5
       - panda_joint6
       - panda_joint7
       - panda_finger_joint1
+      - panda_joint3
       - panda_finger_joint2
 
     write_op_modes:
       - panda_joint1
       - panda_joint2
-      - panda_joint3
       - panda_joint4
       - panda_joint5
       - panda_joint6
       - panda_joint7
       - panda_finger_joint1
+      - panda_joint3
       - panda_finger_joint2
     
     interface_name: position

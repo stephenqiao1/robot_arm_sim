@@ -24,8 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'run_environment = my_environment_pkg.run_environment:main',
-            'data_collection = my_environment_pkg.collection_data:main',
+            'overhead_camerafeed = my_environment_pkg.overhead_camerafeed:main'
         ],
     },
 )

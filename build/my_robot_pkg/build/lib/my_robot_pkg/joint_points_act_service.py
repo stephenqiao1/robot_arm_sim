@@ -1,86 +1,58 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.duration import Duration
 from rclpy.action import ActionClient
 from rclpy.node import Node
 from control_msgs.action import FollowJointTrajectory
 from trajectory_msgs.msg import JointTrajectoryPoint
+from sensor_msgs.msg import JointState
 
 class TrajectoryActionClient(Node):
     def __init__(self):
-        super().__init__('points_publisher_node_action_client')
+        super().__init__('trajectory_action_client')
         self.action_client = ActionClient(self, FollowJointTrajectory, '/joint_trajectory_controller/follow_joint_trajectory')
-        
-    def send_goal(self):
-        points = []
-        
-        point1_msg = JointTrajectoryPoint()
-        point1_msg.positions = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-        point1_msg.time_from_start = Duration(seconds=2.0).to_msg()
-        
-        point2_msg = JointTrajectoryPoint()
-        point2_msg.positions = [0.0, 0.0, 0.52, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-        point2_msg.time_from_start = Duration(seconds=4, nanoseconds=0).to_msg()
-        
-        point3_msg = JointTrajectoryPoint()
-        point3_msg.positions = [0.0, 0.0, -0.17, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-        point3_msg.time_from_start = Duration(seconds=6, nanoseconds=0).to_msg()
-        
-        point4_msg = JointTrajectoryPoint()
-        point4_msg.positions = [0.0, 0.0, -0.52, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-        point4_msg.time_from_start = Duration(seconds=8, nanoseconds=0).to_msg()
-        
-        point5_msg = JointTrajectoryPoint()
-        point5_msg.positions = [0.0, 0.0, 0.17, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-        point5_msg.time_from_start = Duration(seconds=10, nanoseconds=0).to_msg()
-        
-        point6_msg = JointTrajectoryPoint()
-        point6_msg.positions = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.5]
-        point6_msg.time_from_start = Duration(seconds=12, nanoseconds=0).to_msg()
-        
-        points.append(point1_msg)
-        points.append(point2_msg)
-        points.append(point3_msg)
-        points.append(point4_msg)
-        points.append(point5_msg)
-        points.append(point6_msg)
-        
+        self.joint_state_subscription = self.create_subscription(
+            JointState,
+            '/joint_states',
+            self.joint_state_callback,
+            10)
+
+    def joint_state_callback(self, msg):
+        # Log the received joint positions
+        self.get_logger().info(f'Received joint positions: {msg.position}')
+    
+        # Create a new trajectory point from the received joint states
+        point_msg = JointTrajectoryPoint()
+        point_msg.positions = msg.position
+        point_msg.time_from_start = Duration(seconds=1.0).to_msg()
+
+        # # Create a goal message and send it
         joint_names = ['panda_joint1', 'panda_joint2', 'panda_joint3', 'panda_joint4', 'panda_joint5', 'panda_joint6', 'panda_joint7', 'panda_finger_joint1', 'panda_finger_joint2']
         goal_msg = FollowJointTrajectory.Goal()
         goal_msg.goal_time_tolerance = Duration(seconds=1, nanoseconds=0).to_msg()
         goal_msg.trajectory.joint_names = joint_names
-        goal_msg.trajectory.points = points
-        
+        goal_msg.trajectory.points = [point_msg]
+
         self.action_client.wait_for_server()
-        self.send_goal_future = self.action_client.send_goal_async(goal_msg, feedback_callback=self.feedback_callback)
+        self.send_goal_future = self.action_client.send_goal_async(goal_msg)
         self.send_goal_future.add_done_callback(self.goal_response_callback)
-        
+
     def goal_response_callback(self, future):
         goal_handle = future.result()
-        
         if not goal_handle.accepted:
             self.get_logger().info('Goal rejected')
-            return
-        
-        self.get_logger().info('Goal accepted')
-        
-        self.get_result_future=goal_handle.get_result_async()
-        self.get_result_future.add_done_callback(self.get_result_callback)
-        
-    def get_result_callback(self, future):
-        result = future.result().result
-        self.get_logger().info('Result: '+str(result))
-        rclpy.shutdown()
-        
-    def feedback_callback(self, feedback_msg):
-        feedback = feedback_msg.feedback
-        
-        
+        else:
+            self.get_logger().info('Goal accepted')
+
+    # def feedback_callback(self, feedback_msg):
+    #     feedback = feedback_msg.feedback
+
 def main(args=None):
-    rclpy.init()
-    
+    rclpy.init(args=args)
     action_client = TrajectoryActionClient()
-    future = action_client.send_goal()
     rclpy.spin(action_client)
-    
+    action_client.destroy_node()
+    rclpy.shutdown()
+
 if __name__ == '__main__':
-    main()        
+    main()
