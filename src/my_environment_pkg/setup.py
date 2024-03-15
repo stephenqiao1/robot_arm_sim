@@ -14,6 +14,8 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.py'))),
         (os.path.join('share', package_name, 'worlds'), glob(os.path.join('worlds', '*.world'))),
+        (os.path.join('share', package_name, 'description', 'urdf'), glob(os.path.join('description', 'urdf', '*.urdf'))),
+        (os.path.join('share', package_name, 'description', 'xacro'), glob(os.path.join('description', 'xacro', '*.xacro'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,7 +26,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'overhead_camerafeed = my_environment_pkg.overhead_camerafeed:main'
         ],
     },
 )

@@ -1,0 +1,25 @@
+[2.564s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/install.log --single-version-externally-managed
+[3.187s] running egg_info
+[3.189s] writing ../../build/my_robot_pkg/my_robot_pkg.egg-info/PKG-INFO
+[3.189s] writing dependency_links to ../../build/my_robot_pkg/my_robot_pkg.egg-info/dependency_links.txt
+[3.189s] writing entry points to ../../build/my_robot_pkg/my_robot_pkg.egg-info/entry_points.txt
+[3.190s] writing requirements to ../../build/my_robot_pkg/my_robot_pkg.egg-info/requires.txt
+[3.190s] writing top-level names to ../../build/my_robot_pkg/my_robot_pkg.egg-info/top_level.txt
+[3.193s] reading manifest file '../../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[3.196s] writing manifest file '../../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[3.196s] running build
+[3.197s] running build_py
+[3.197s] running install
+[3.197s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.198s]   warnings.warn(
+[3.198s] running install_lib
+[3.200s] running install_data
+[3.203s] running install_egg_info
+[3.207s] removing '/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.208s] Copying ../../build/my_robot_pkg/my_robot_pkg.egg-info to /home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg-0.0.0-py3.10.egg-info
+[3.209s] running install_scripts
+[3.241s] Installing joint_state_action script to /home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/my_robot_pkg
+[3.242s] Installing trajectory_points_act_server script to /home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/my_robot_pkg
+[3.242s] Installing trajectory_points_topic script to /home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/my_robot_pkg
+[3.243s] writing list of installed files to '/home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/install.log'
+[3.310s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_robot_pkg/install.log --single-version-externally-managed

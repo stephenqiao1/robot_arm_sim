@@ -1,0 +1,24 @@
+[1.695s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_environment_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/install.log --single-version-externally-managed
+[2.069s] running egg_info
+[2.070s] writing ../../build/my_environment_pkg/my_environment_pkg.egg-info/PKG-INFO
+[2.070s] writing dependency_links to ../../build/my_environment_pkg/my_environment_pkg.egg-info/dependency_links.txt
+[2.071s] writing entry points to ../../build/my_environment_pkg/my_environment_pkg.egg-info/entry_points.txt
+[2.071s] writing requirements to ../../build/my_environment_pkg/my_environment_pkg.egg-info/requires.txt
+[2.071s] writing top-level names to ../../build/my_environment_pkg/my_environment_pkg.egg-info/top_level.txt
+[2.075s] reading manifest file '../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+[2.076s] writing manifest file '../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+[2.076s] running build
+[2.076s] running build_py
+[2.077s] running install
+[2.077s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.077s]   warnings.warn(
+[2.077s] running install_lib
+[2.079s] running install_data
+[2.080s] copying launch/my_environment.launch.py -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/share/my_environment_pkg/launch
+[2.080s] running install_egg_info
+[2.083s] removing '/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.084s] Copying ../../build/my_environment_pkg/my_environment_pkg.egg-info to /home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg-0.0.0-py3.10.egg-info
+[2.085s] running install_scripts
+[2.112s] Installing overhead_camerafeed script to /home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/my_environment_pkg
+[2.112s] writing list of installed files to '/home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/install.log'
+[2.240s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_environment_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_environment_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_environment_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_environment_pkg/install.log --single-version-externally-managed

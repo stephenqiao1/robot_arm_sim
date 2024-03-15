@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="camera_robot">
+
+  <xacro:include filename="$(find my_environment_pkg)/description/xacro/camera.xacro" />
+
+</robot>

@@ -15,6 +15,8 @@ from ament_index_python.packages import get_package_share_directory
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.actions import ExecuteProcess
+from launch.substitutions import Command
+from launch_ros.descriptions import ParameterValue
 
 def generate_launch_description():
     
@@ -30,7 +32,7 @@ def generate_launch_description():
     
     # Start Gazebo
     world_file_name = 'my_world.world'
-    world = os.path.join(get_package_share_directory('my_environment_pkg'), 'worlds', world_file_name)
+    world = os.path.join(my_environments_files, 'worlds', world_file_name)
     gazebo_node = ExecuteProcess(cmd=['gazebo', '--verbose', world, '-s', 'libgazebo_ros_factory.so'], output='screen')
     
     # Node

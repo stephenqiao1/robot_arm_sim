@@ -1,0 +1,35 @@
+[2.851s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_camera_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_camera_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/install.log --single-version-externally-managed
+[3.424s] running egg_info
+[3.425s] creating ../../build/my_camera_pkg/my_camera_pkg.egg-info
+[3.425s] writing ../../build/my_camera_pkg/my_camera_pkg.egg-info/PKG-INFO
+[3.425s] writing dependency_links to ../../build/my_camera_pkg/my_camera_pkg.egg-info/dependency_links.txt
+[3.426s] writing entry points to ../../build/my_camera_pkg/my_camera_pkg.egg-info/entry_points.txt
+[3.426s] writing requirements to ../../build/my_camera_pkg/my_camera_pkg.egg-info/requires.txt
+[3.426s] writing top-level names to ../../build/my_camera_pkg/my_camera_pkg.egg-info/top_level.txt
+[3.426s] writing manifest file '../../build/my_camera_pkg/my_camera_pkg.egg-info/SOURCES.txt'
+[3.428s] reading manifest file '../../build/my_camera_pkg/my_camera_pkg.egg-info/SOURCES.txt'
+[3.429s] writing manifest file '../../build/my_camera_pkg/my_camera_pkg.egg-info/SOURCES.txt'
+[3.430s] running build
+[3.430s] running build_py
+[3.430s] creating /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build
+[3.430s] creating /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build/lib
+[3.430s] creating /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build/lib/my_camera_pkg
+[3.430s] copying my_camera_pkg/__init__.py -> /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build/lib/my_camera_pkg
+[3.431s] running install
+[3.431s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.431s]   warnings.warn(
+[3.431s] running install_lib
+[3.433s] creating /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/lib/python3.10/site-packages/my_camera_pkg
+[3.433s] copying /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build/lib/my_camera_pkg/__init__.py -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/lib/python3.10/site-packages/my_camera_pkg
+[3.433s] byte-compiling /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/lib/python3.10/site-packages/my_camera_pkg/__init__.py to __init__.cpython-310.pyc
+[3.434s] running install_data
+[3.435s] creating /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/share/ament_index
+[3.435s] creating /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/share/ament_index/resource_index
+[3.435s] creating /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/share/ament_index/resource_index/packages
+[3.436s] copying resource/my_camera_pkg -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/share/ament_index/resource_index/packages
+[3.436s] copying package.xml -> /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/share/my_camera_pkg
+[3.436s] running install_egg_info
+[3.439s] Copying ../../build/my_camera_pkg/my_camera_pkg.egg-info to /home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/lib/python3.10/site-packages/my_camera_pkg-0.0.0-py3.10.egg-info
+[3.440s] running install_scripts
+[3.467s] writing list of installed files to '/home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/install.log'
+[3.509s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_camera_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/install/my_camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_camera_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/build/my_camera_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,85 @@
+[1.890s] Invoking command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/install.log --single-version-externally-managed
+[2.175s] running egg_info
+[2.176s] creating ../build/my_robot_pkg/my_robot_pkg.egg-info
+[2.176s] writing ../build/my_robot_pkg/my_robot_pkg.egg-info/PKG-INFO
+[2.177s] writing dependency_links to ../build/my_robot_pkg/my_robot_pkg.egg-info/dependency_links.txt
+[2.177s] writing entry points to ../build/my_robot_pkg/my_robot_pkg.egg-info/entry_points.txt
+[2.177s] writing requirements to ../build/my_robot_pkg/my_robot_pkg.egg-info/requires.txt
+[2.177s] writing top-level names to ../build/my_robot_pkg/my_robot_pkg.egg-info/top_level.txt
+[2.177s] writing manifest file '../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[2.233s] reading manifest file '../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[2.235s] writing manifest file '../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[2.235s] running build
+[2.235s] running build_py
+[2.235s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build
+[2.235s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib
+[2.236s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg
+[2.236s] copying my_robot_pkg/joint_state_action.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg
+[2.237s] copying my_robot_pkg/__init__.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg
+[2.237s] copying my_robot_pkg/joint_points_act_service.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg
+[2.238s] running install
+[2.238s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.238s]   warnings.warn(
+[2.239s] running install_lib
+[2.240s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[2.240s] copying /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg/joint_state_action.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[2.241s] copying /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg/__init__.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[2.241s] copying /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build/lib/my_robot_pkg/joint_points_act_service.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[2.243s] byte-compiling /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/joint_state_action.py to joint_state_action.cpython-310.pyc
+[2.245s] byte-compiling /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/__init__.py to __init__.cpython-310.pyc
+[2.246s] byte-compiling /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/joint_points_act_service.py to joint_points_act_service.cpython-310.pyc
+[2.247s] running install_data
+[2.248s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/ament_index
+[2.248s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/ament_index/resource_index
+[2.248s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/ament_index/resource_index/packages
+[2.248s] copying resource/my_robot_pkg -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/ament_index/resource_index/packages
+[2.248s] copying package.xml -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg
+[2.249s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/launch
+[2.249s] copying launch/my_robot_rviz.launch.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/launch
+[2.249s] copying launch/my_robot_gazebo_controller.launch.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/launch
+[2.249s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/rviz
+[2.249s] copying rviz/view_config.rviz -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/rviz
+[2.249s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/config
+[2.250s] copying config/simple_controller.yaml -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/config
+[2.250s] copying config/panda_controller.yaml -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/config
+[2.250s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/worlds
+[2.250s] copying worlds/my_empty_world.world -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/worlds
+[2.251s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description
+[2.251s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/urdf
+[2.251s] copying description/urdf/panda.urdf -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/urdf
+[2.251s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/xacro
+[2.251s] copying description/xacro/panda_transmission.xacro -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/xacro
+[2.251s] copying description/xacro/panda_ros2control.xacro -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/xacro
+[2.252s] copying description/xacro/panda_macro.urdf.xacro -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/xacro
+[2.252s] copying description/xacro/panda.urdf.xacro -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/xacro
+[2.252s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes
+[2.252s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.252s] copying description/meshes/visual/finger.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.252s] copying description/meshes/visual/link2.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.254s] copying description/meshes/visual/link5.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.259s] copying description/meshes/visual/link1.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.261s] copying description/meshes/visual/hand.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.263s] copying description/meshes/visual/link0.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.266s] copying description/meshes/visual/link4.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.269s] copying description/meshes/visual/link7.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.271s] copying description/meshes/visual/link6.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.274s] copying description/meshes/visual/link3.dae -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/visual
+[2.277s] creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.278s] copying description/meshes/collision/link7.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.278s] copying description/meshes/collision/finger.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.278s] copying description/meshes/collision/link3.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.279s] copying description/meshes/collision/hand.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.279s] copying description/meshes/collision/link2.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.279s] copying description/meshes/collision/link6.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.280s] copying description/meshes/collision/link5.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.280s] copying description/meshes/collision/link4.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.281s] copying description/meshes/collision/link1.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.281s] copying description/meshes/collision/link0.stl -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/share/my_robot_pkg/description/meshes/collision
+[2.281s] running install_egg_info
+[2.287s] Copying ../build/my_robot_pkg/my_robot_pkg.egg-info to /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg-0.0.0-py3.10.egg-info
+[2.289s] running install_scripts
+[2.338s] Installing joint_state_action script to /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/my_robot_pkg
+[2.339s] Installing trajectory_points_act_server script to /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/my_robot_pkg
+[2.339s] Installing trajectory_points_topic script to /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/my_robot_pkg
+[2.340s] writing list of installed files to '/home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/install.log'
+[2.487s] Invoked command in '/home/stephenq0503/Desktop/robot_arm_sim/src/my_robot_pkg' returned '0': PYTHONPATH=/home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/prefix_override:/home/stephenq0503/Desktop/robot_arm_sim/src/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_pkg build --build-base /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/build install --record /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_robot_pkg/install.log --single-version-externally-managed

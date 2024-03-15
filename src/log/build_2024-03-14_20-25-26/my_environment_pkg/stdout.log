@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/my_environment_pkg/my_environment_pkg.egg-info
+writing ../build/my_environment_pkg/my_environment_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/my_environment_pkg/my_environment_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/my_environment_pkg/my_environment_pkg.egg-info/entry_points.txt
+writing requirements to ../build/my_environment_pkg/my_environment_pkg.egg-info/requires.txt
+writing top-level names to ../build/my_environment_pkg/my_environment_pkg.egg-info/top_level.txt
+writing manifest file '../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_environment_pkg/build
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_environment_pkg/build/lib
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/__init__.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_environment_pkg/build/lib/my_environment_pkg
+running install
+running install_lib
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/stephenq0503/Desktop/robot_arm_sim/src/build/my_environment_pkg/build/lib/my_environment_pkg/__init__.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+byte-compiling /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/ament_index
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/ament_index/resource_index
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/ament_index/resource_index/packages
+copying resource/my_environment_pkg -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/launch
+copying launch/my_environment.launch.py -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/launch
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/worlds
+copying worlds/my_world.world -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/worlds
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/description
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/description/urdf
+creating /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/description/xacro
+copying description/xacro/camera_robot.urdf.xacro -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/description/xacro
+copying description/xacro/camera.xacro -> /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/share/my_environment_pkg/description/xacro
+running install_egg_info
+Copying ../build/my_environment_pkg/my_environment_pkg.egg-info to /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing overhead_camerafeed script to /home/stephenq0503/Desktop/robot_arm_sim/src/install/my_environment_pkg/lib/my_environment_pkg
+writing list of installed files to '/home/stephenq0503/Desktop/robot_arm_sim/src/build/my_environment_pkg/install.log'
